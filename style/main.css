@@ -9,23 +9,49 @@
     box-sizing: border-box;
 }
 
+/* ELEMENTOS BASE */
+
+body{
+    background: var(--preto);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
 header .container{
     display: flex;
     flex-direction: row;
-    border-style: double;
     align-items: center;
     justify-content: space-between;
 }
 
 header nav a{
-     margin-right: 5px;
-     border-style: solid;
- 
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 15px;
+
+}
+
+header nav a:hover{
+    color: #fff;
 }
 
 header .logo{
-    border-style: solid;
     height: 5rem;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
+/* PRINCIPAL */
+
+.principal{
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.5)100%) ,url(https://i2.wp.com/guitarload.com.br/wp-content/uploads/2020/01/steve-vai-ibanez-pia-1.jpg?fit=1398%2C732&ssl=1);
+    
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
