@@ -1,0 +1,31 @@
+:root{
+    --vermelho: #7a1a1a;
+    --preto: #0c0c0c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    border-style: double;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+     margin-right: 5px;
+     border-style: solid;
+ 
+}
+
+header .logo{
+    border-style: solid;
+    height: 5rem;
+    margin-left: 5px;
+}
+
